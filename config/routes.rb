@@ -1,4 +1,14 @@
 Uzeema::Application.routes.draw do
+  resources :grains
+
+  resources :participants
+
+  resources :tables
+
+  resources :questions
+
+  resources :contacts
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
