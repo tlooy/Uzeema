@@ -13,4 +13,10 @@ class StaticPagesController < ApplicationController
 
   def news
   end
+
+  def help
+  end
+
+  def signin
+  end
 end

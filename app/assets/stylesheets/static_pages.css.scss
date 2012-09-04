@@ -5,26 +5,26 @@ header h1 {
   font-size: 28px;
   color: #000;
   padding-left: 120px;
+  margin-top: 0px;
 }
 
 header h2 {
   font-size: 20px;
   color: #000;
   padding-left: 120px;
-}
-
-h1 {
-  font-size: 20px;
-  color: #000;
-  padding-left: 120px;
+  margin-top: 0px;
 }
 
 header {
   background-image: url("uzeema-color.png");
-	background-size: 100px 60px;
+  background-size: 100px 60px;
   background-repeat: no-repeat;
   background-position: top left;
-  height: 50px;
+  height: 80px;
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
 }
 
 footer {
@@ -34,8 +34,11 @@ footer {
   color: #999;
 }
 
-
 footer small {
+  float: left;
+}
+
+header small {
   float: left;
 }
 
@@ -47,4 +50,20 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 10px;
+}
+
+header ul {
+  float: right;
+  list-style: none;
+}
+
+header ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+static-body {
+font-size: 16px;
+color: #999;
+
 }
