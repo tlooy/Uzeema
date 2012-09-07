@@ -13,7 +13,7 @@
  */
 /* TRL: Moved this in from static_pages.css in order to see if this gets it precompiled in Heroku */
 header h1 {
-  font-size: 28px;
+  font-size: 48px;
   color: #000;
   padding-left: 120px;
   margin-top: 0px;
